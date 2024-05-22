@@ -1,12 +1,12 @@
-import React from 'react'
-import Hero from '../components/hero'
-import Sections from '../components/Sections'
-import PopularMakes from '../components/PopularMakes'
-import BoxCar from '../components/BoxCar'
-import Customars from '../components/Customars'
-import Blog from '../components/Blog'
-import Footer from '../components/Footer/Footer'
-import { Helmet } from 'react-helmet'
+import React from "react";
+import Hero from "../components/hero";
+import Sections from "../components/Sections";
+import PopularMakes from "../components/PopularMakes";
+import BoxCar from "../components/BoxCar";
+import Customars from "../components/Customars";
+import Blog from "../components/Blog";
+import Footer from "../components/Footer/Footer";
+import { Helmet } from "react-helmet";
 
 function Home() {
   return (
@@ -15,41 +15,46 @@ function Home() {
         <title>Carbuy - Your Go-To Car Shopping Site</title>
         <meta
           name="description"
-          content="Join BoxCar and receive pricing updates, shopping tips & more! Find the best car deals from top brands like Toyota, Porsche, Audi, and more."
+          content="Web site created using create-react-app"
         />
+
+        {/* Facebook Meta Tags */}
         <meta
-          name="keywords"
-          content="car shopping, car deals, Toyota, Porsche, Audi"
+          property="og:url"
+          content="https://10-car-dealer-website-templates.vercel.app/"
         />
-        <link rel="canonical" href="https://www.exemple.com/" />
+        <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Exemple.com - Your Go-To Car Shopping Site"
+          content="Carbuy - Your Go-To Car Shopping Site"
         />
         <meta
           property="og:description"
-          content="Join BoxCar and receive pricing updates, shopping tips & more! Find the best car deals from top brands like Toyota, Porsche, Audi, and more."
+          content="Web site created using create-react-app"
         />
-        <meta property="og:url" content="https://www.exemple.com/" />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content="https://www.exemple.com/og-image.jpg"
-        />
+        <meta property="og:image" content="" />
+
+        {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
+          property="twitter:domain"
+          content="10-car-dealer-website-templates.vercel.app"
+        />
+        <meta
+          property="twitter:url"
+          content="https://10-car-dealer-website-templates.vercel.app/"
+        />
+        <meta
           name="twitter:title"
-          content="Exemple.com - Your Go-To Car Shopping Site"
+          content="Carbuy - Your Go-To Car Shopping Site"
         />
         <meta
           name="twitter:description"
-          content="Join BoxCar and receive pricing updates, shopping tips & more! Find the best car deals from top brands like Toyota, Porsche, Audi, and more."
+          content="Web site created using create-react-app"
         />
-        <meta
-          name="twitter:image"
-          content="https://www.exemple.com/twitter-image.jpg"
-        />
+        <meta name="twitter:image" content="" />
       </Helmet>
+
       <Hero />
       <Sections />
       <PopularMakes />
@@ -61,4 +66,4 @@ function Home() {
   );
 }
 
-export default Home
+export default Home;
