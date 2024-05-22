@@ -126,7 +126,7 @@ function Sections() {
         </div>
       </div>
       {/* maping */}
-      <div className="flex flex-col  self-center mt-4  max-w-[1400px] max-md:max-w-full">
+      <div className="flex flex-col  self-center mt-4 px-2 max-w-[1400px] max-md:max-w-full">
         <div className="flex gap-5 items-start px-5 pt-2 ml-0 text-base font-medium leading-7 border-b border-gray-200 border-solid text-slate-950 max-md:flex-wrap">
           <div className="flex flex-col">
             <div>In Stock</div>
