@@ -26,23 +26,23 @@ function Hero() {
         </div>
         <div className="h-0.5 bg-white w-12 mt-3.5 md:mt-3.5" />
         {/* update */}
-        <div className="flex flex-wrap gap-4 justify-end py-2.5 pr-2.5 pl-6 text-base bg-white rounded-[80px] max-md:pl-4">
-          <div className="flex flex-auto gap-4 my-auto leading-[187%] text-slate-950 max-md:flex-wrap">
-            <div className="flex gap-4 justify-center px-6 py-2 border-r border-gray-200 max-md:px-4">
+        <div className="flex flex-wrap gap-4 justify-end py-2.5 pr-2.5 pl-6 text-base bg-white rounded-xl  md:rounded-[60px] max-md:pl-4 max-md:flex-col max-md:gap-2 max-md:py-4">
+          <div className="flex flex-auto gap-4 my-auto leading-[187%] text-slate-950 max-md:flex-col max-md:gap-2 max-md:w-full">
+            <div className="flex gap-4 justify-center px-6 py-2 border-r border-gray-200 max-md:px-4 max-md:border-r-0 max-md:border-b max-md:w-full max-md:justify-start max-md:py-2">
               <div>Any Makes</div>
             </div>
-            <div className="flex gap-4 justify-center px-6 py-2 border-r border-gray-200 max-md:px-4">
+            <div className="flex gap-4 justify-center px-6 py-2 border-r border-gray-200 max-md:px-4 max-md:border-r-0 max-md:border-b max-md:w-full max-md:justify-start max-md:py-2">
               <div>Any Models</div>
             </div>
-            <div className="my-auto capitalize leading-[185%] max-md:leading-[160%]">
+            <div className="my-auto capitalize leading-[185%] max-md:leading-[160%] max-md:w-full max-md:text-left max-md:py-2 max-md:border-b max-md:border-gray-200">
               Prices:
             </div>
           </div>
-          <div className="flex flex-auto items-center gap-4 justify-between max-md:flex-wrap">
-            <div className="my-auto capitalize leading-[240%] text-slate-950 max-md:leading-[160%]">
+          <div className="flex flex-auto items-center gap-4 justify-between max-md:flex-col max-md:gap-2 max-md:w-full">
+            <div className="my-auto capitalize leading-[240%] text-slate-950 max-md:leading-[160%] max-md:w-full max-md:text-left max-md:py-2">
               All Prices
             </div>
-            <div className="flex gap-3 px-10 py-3 font-medium text-center text-white bg-blue-600 border border-blue-600 leading-[185%] rounded-[60px] max-md:px-4">
+            <div className="flex gap-3 px-10 py-3 font-medium text-center text-white bg-blue-600 border border-blue-600 leading-[185%] rounded-[60px] max-md:px-4 max-md:py-2 max-md:w-full max-md:justify-center">
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/f825e1cab4dbed39264d356509cd5f7bf9cc3a65cbe40da5b32de5a8c3eaa266?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
