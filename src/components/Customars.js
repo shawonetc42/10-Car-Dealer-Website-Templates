@@ -2,9 +2,9 @@ import React from 'react'
 
 function Customars() {
   return (
-    <div className="flex justify-center items-center px-16 py-20 bg-slate-50 max-md:px-5 ">
-      <div className="flex flex-col mt-10 w-full max-w-[1630px] max-md:max-w-full container mx-auto px-20">
-        <div className="flex gap-5 self-center w-full max-w-[1396px] text-slate-950 max-md:flex-wrap max-md:max-w-full">
+    <div className="flex justify-center items-center px-4 py-20 bg-slate-50 max-md:px-5 ">
+      <div className="flex flex-col mt-10 w-full max-w-[1400px] max-md:max-w-full container mx-auto px-4">
+        <div className="flex gap-5 self-center w-full  text-slate-950 max-md:flex-wrap max-md:max-w-full">
           <div className="flex-auto text-4xl font-bold leading-10 max-md:max-w-full">
             What our customers say
           </div>
@@ -19,7 +19,7 @@ function Customars() {
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/6feef678111eef7d2fb237eebaf7cf1b026866f57cabbb687ca28d9d95bbb447?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/6feef678111eef7d2fb237eebaf7cf1b026866f57cabbb687ca28d9d95bbb447?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6feef678111eef7d2fb237eebaf7cf1b026866f57cabbb687ca28d9d95bbb447?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/6feef678111eef7d2fb237eebaf7cf1b026866f57cabbb687ca28d9d95bbb447?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/6feef678111eef7d2fb237eebaf7cf1b026866f57cabbb687ca28d9d95bbb447?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/6feef678111eef7d2fb237eebaf7cf1b026866f57cabbb687ca28d9d95bbb447?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/6feef678111eef7d2fb237eebaf7cf1b026866f57cabbb687ca28d9d95bbb447?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/6feef678111eef7d2fb237eebaf7cf1b026866f57cabbb687ca28d9d95bbb447?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
-                  alt='logo'
+                  alt="logo"
                   className="grow shrink-0 aspect-[0.95] basis-0 w-fit max-md:max-w-full"
                 />
               </div>
@@ -53,6 +53,7 @@ function Customars() {
                 <img
                   loading="lazy"
                   src="https://cdn.builder.io/api/v1/image/assets/TEMP/9a8b7b849503dc6c0180ed39f8bba3e4092cb66eb812586bbaa7eb777c6e9859?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                  alt='icon'
                   className="shrink-0 my-auto border border-gray-200 border-solid aspect-[1.49] w-[60px]"
                 />
               </div>

@@ -126,7 +126,7 @@ function Sections() {
         </div>
       </div>
       {/* maping */}
-      <div className="flex flex-col items-center self-center mt-4 w-full max-w-[1796px] max-md:max-w-full">
+      <div className="flex flex-col  self-center mt-4  max-w-[1400px] max-md:max-w-full">
         <div className="flex gap-5 items-start px-5 pt-2 ml-0 text-base font-medium leading-7 border-b border-gray-200 border-solid text-slate-950 max-md:flex-wrap">
           <div className="flex flex-col">
             <div>In Stock</div>
@@ -135,7 +135,7 @@ function Sections() {
           <div>New Cars</div>
           <div className="flex-auto max-md:max-w-full">Used Cars</div>
         </div>
-        <div className="flex gap-5 justify-between px-5 mt-12 ml-16 max-md:flex-wrap max-md:mt-10">
+        <div className="flex gap-5 justify-between  mt-12  max-md:flex-wrap max-md:mt-10">
           {cars.map((car, index) => (
             <div
               key={index}
@@ -203,22 +203,8 @@ function Sections() {
           ))}
         </div>
 
-        <div className="flex gap-5 justify-between self-start mt-12 ml-36 max-md:mt-10 max-md:ml-2.5">
-          <img
-            loading="lazy"
-            src="/leftarrow.svg"
-            alt="arrow"
-            className="shrink-0 border border-gray-300 border-solid rounded-full w-12 h-12 p-2 hover:bg-gray-100 transition-all duration-300"
-          />
-          <img
-            loading="lazy"
-            src="/rightarrow.svg"
-            alt="arrow"
-            className="shrink-0 border border-gray-300 border-solid rounded-full w-12 h-12 p-2 hover:bg-gray-100 transition-all duration-300"
-          />
-        </div>
         {/* section 3 */}
-        <div class="grid grid-cols-1 md:grid-cols-2 max-md:flex max-md:flex-col max-md:gap-5">
+        <div class="grid grid-cols-1 md:grid-cols-2 max-md:flex max-md:flex-col max-w-[1400px] max-md:gap-5 mt-5">
           <div class="flex w-full max-md:w-full bg-gray-100">
             <div class="relative overflow-hidden flex-grow justify-center items-center px-8 md:px-16 py-10 md:py-20 rounded-2xl min-h-[350px] md:min-h-[694px]">
               <img
@@ -285,7 +271,7 @@ function Sections() {
         </div>
 
         {/* end */}
-        <div className="flex flex-col md:flex-row flex-wrap justify-between px-2 mt-5 max-w-full text-slate-950  md:w-full">
+        <div className="flex flex-col md:flex-row flex-wrap justify-between px-2 mt-5 max-w-[1400px] text-slate-950  md:w-full">
           <div className="flex flex-col items-center md:items-start">
             <div className="text-4xl font-bold leading-[53.2px]">836M</div>
             <div className="mt-7 text-base leading-9 text-center md:text-left">
@@ -324,6 +310,7 @@ function Sections() {
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/9ac437e9e1ba559845186f20f73aa2c518a531d3085f769a963d26e74447df8d?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                alt="icon"
                 className="aspect-square w-[60px]"
               />
               <div className="mt-6 text-xl font-medium leading-6">
@@ -341,6 +328,7 @@ function Sections() {
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/384cf688130723eeb73576371ca098ceffb65d69a9470bc0fe96dc5e8af7f3b1?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                alt="icon"
                 className="aspect-square w-[60px]"
               />
               <div className="mt-6 text-xl font-medium leading-6">
@@ -358,6 +346,7 @@ function Sections() {
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/908afb3e74142b74748f6f9d1c1469b4919d77fd2037b927507b86965a0e6731?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                alt=""
                 className="aspect-square w-[60px]"
               />
               <div className="mt-6 text-xl font-medium leading-6">
@@ -375,6 +364,7 @@ function Sections() {
               <img
                 loading="lazy"
                 src="https://cdn.builder.io/api/v1/image/assets/TEMP/179b897119653803aa28c4cb461346d627c8d52cb10b26ffe5649213f0ac8ff1?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                alt="icon"
                 className="aspect-square w-[60px]"
               />
               <div className="mt-6 text-xl font-medium leading-6">

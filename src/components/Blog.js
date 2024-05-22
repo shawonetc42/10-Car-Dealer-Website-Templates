@@ -2,7 +2,7 @@ import React from 'react'
 
 function Blog() {
   return (
-    <div className="flex flex-col container mx-auto">
+    <div className="flex flex-col container mx-auto max-w-[1400px]">
       <div className="flex gap-5 px-5 w-full leading-[100%] text-slate-950 max-md:flex-wrap max-md:max-w-full">
         <div className="flex-auto text-4xl font-bold">Latest Blog Posts</div>
         <div className="flex gap-3 my-auto text-base font-medium text-center">
@@ -10,6 +10,7 @@ function Blog() {
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/ada6c7eb3fe7b86379618dc2368e2d2b075123bf716093c50fdab2881e209166?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+            alt='icon'
             className="shrink-0 w-3.5 aspect-square"
           />
         </div>
@@ -22,6 +23,7 @@ function Blog() {
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/035e51858e8a4b369368c7254897937a0aa08aa5d45406ce86b8b3003f34ecfc?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/035e51858e8a4b369368c7254897937a0aa08aa5d45406ce86b8b3003f34ecfc?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/035e51858e8a4b369368c7254897937a0aa08aa5d45406ce86b8b3003f34ecfc?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/035e51858e8a4b369368c7254897937a0aa08aa5d45406ce86b8b3003f34ecfc?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/035e51858e8a4b369368c7254897937a0aa08aa5d45406ce86b8b3003f34ecfc?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/035e51858e8a4b369368c7254897937a0aa08aa5d45406ce86b8b3003f34ecfc?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/035e51858e8a4b369368c7254897937a0aa08aa5d45406ce86b8b3003f34ecfc?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/035e51858e8a4b369368c7254897937a0aa08aa5d45406ce86b8b3003f34ecfc?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                  alt='icon'
                   className="object-cover absolute inset-0 size-full"
                 />
                 <div className="relative justify-center px-4 py-3.5 mb-28 bg-white rounded-[30px] max-md:mb-10">
@@ -45,6 +47,7 @@ function Blog() {
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/f86e31a1ba220a841c3bfddc85b6ab2b2c45321116e27128782e76256977fb67?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/f86e31a1ba220a841c3bfddc85b6ab2b2c45321116e27128782e76256977fb67?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f86e31a1ba220a841c3bfddc85b6ab2b2c45321116e27128782e76256977fb67?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/f86e31a1ba220a841c3bfddc85b6ab2b2c45321116e27128782e76256977fb67?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/f86e31a1ba220a841c3bfddc85b6ab2b2c45321116e27128782e76256977fb67?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/f86e31a1ba220a841c3bfddc85b6ab2b2c45321116e27128782e76256977fb67?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/f86e31a1ba220a841c3bfddc85b6ab2b2c45321116e27128782e76256977fb67?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/f86e31a1ba220a841c3bfddc85b6ab2b2c45321116e27128782e76256977fb67?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                  alt='icon'
                   className="object-cover absolute inset-0 size-full"
                 />
                 <div className="relative justify-center px-4 py-3.5 mb-28 bg-white rounded-[30px] max-md:mb-10">
@@ -68,6 +71,7 @@ function Blog() {
                 <img
                   loading="lazy"
                   srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/7b4e77caf88cbd0f997c967f02c8827cad3b0e4aa2c0e071357b25c479375459?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/7b4e77caf88cbd0f997c967f02c8827cad3b0e4aa2c0e071357b25c479375459?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7b4e77caf88cbd0f997c967f02c8827cad3b0e4aa2c0e071357b25c479375459?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/7b4e77caf88cbd0f997c967f02c8827cad3b0e4aa2c0e071357b25c479375459?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/7b4e77caf88cbd0f997c967f02c8827cad3b0e4aa2c0e071357b25c479375459?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/7b4e77caf88cbd0f997c967f02c8827cad3b0e4aa2c0e071357b25c479375459?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/7b4e77caf88cbd0f997c967f02c8827cad3b0e4aa2c0e071357b25c479375459?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/7b4e77caf88cbd0f997c967f02c8827cad3b0e4aa2c0e071357b25c479375459?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                  alt='icon'
                   className="object-cover absolute inset-0 size-full"
                 />
                 <div className="relative justify-center px-4 py-3.5 mb-28 bg-white rounded-[30px] max-md:mb-10">
@@ -109,6 +113,7 @@ function Blog() {
                       <img
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/fff141b69650f6be80f8e51b0f6cbd8136cb241fe1f400ce01bff26548f16a94?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                        alt='icon'
                         className="shrink-0 self-start w-3.5 aspect-square"
                       />
                     </div>
@@ -118,6 +123,7 @@ function Blog() {
                   <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/b5d5fff1d65d9f6a2849121743f1778e5871cb2bc73abc470482f99da7c3f880?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                    alt='icon'
                     className="shrink-0 mt-40 max-w-full aspect-square w-[110px] max-md:mt-10"
                   />
                 </div>
@@ -144,6 +150,7 @@ function Blog() {
                       <img
                         loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/fff141b69650f6be80f8e51b0f6cbd8136cb241fe1f400ce01bff26548f16a94?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                        alt='icon'
                         className="shrink-0 self-start w-3.5 aspect-square"
                       />
                     </div>
@@ -153,6 +160,7 @@ function Blog() {
                   <img
                     loading="lazy"
                     src="https://cdn.builder.io/api/v1/image/assets/TEMP/edaac9de40edf43a3d70a327f248cb7fb6fe3fc47f5e647b82f636782db2d285?apiKey=4347c25cbbc84e04bdff1e95b941b3c7&"
+                    alt='icon'
                     className="shrink-0 mt-40 max-w-full aspect-square w-[110px] max-md:mt-10"
                   />
                 </div>

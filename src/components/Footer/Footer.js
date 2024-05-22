@@ -2,27 +2,28 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex flex-col text-white ">
-      {/* sections 1 */}
-      <div className="flex justify-center items-center px-2 py-16 w-full bg-slate-950 sm:px-5 ">
-        <div className="flex flex-col gap-5 justify-between w-full max-w-[1400px] sm:flex-row sm:max-w-full ">
-          <div className="flex flex-col">
+    <div className="flex flex-col text-white">
+      {/* Section 1 */}
+      <div className="flex justify-center items-center px-16 py-8 bg-slate-950 max-md:px-5">
+        <div className="flex gap-5 justify-between w-full max-w-[1400px] max-md:flex-wrap max-md:max-w-full">
+          <div className="flex flex-col my-auto">
             <div className="text-3xl font-medium leading-8">Join BoxCar</div>
             <div className="mt-6 text-base leading-7">
               Receive pricing updates, shopping tips & more!
             </div>
           </div>
-          <div className="flex flex-col justify-center py-2.5 pr-2.5 pl-8 bg-white bg-opacity-10 rounded-[60px] sm:flex-row sm:max-w-[400px]">
-            <div className="my-auto">Your email address</div>
-            <div className="px-8 py-5 font-medium text-center bg-blue-600 border border-blue-600 border-solid rounded-[60px] sm:ml-5">
+          <div className="flex gap-5 justify-end py-2.5 pr-2.5 pl-8 text-base bg-white bg-opacity-10 rounded-[60px] max-md:flex-wrap max-md:pl-5 max-md:max-w-full">
+            <div className="flex-auto my-auto">Your email address</div>
+            <button className="justify-center px-8 py-5 font-medium text-center bg-blue-600 border border-blue-600 border-solid leading-[185%] rounded-[60px] max-md:px-5">
               Sign Up
-            </div>
+            </button>
           </div>
         </div>
       </div>
-      {/* sections 2 */}
-      <div className="flex justify-center items-center  py-5 w-full bg-slate-950 leading-[185%] sm:px-5">
-        <div className="flex flex-col gap-2 justify-between w-full container sm:flex-row sm:max-w-full">
+      {/* Section 2 */}
+      <div className="flex justify-center items-start px-16 py-8 bg-slate-950 leading-[185%] max-md:px-5">
+        <div className="flex gap-5 justify-between w-full max-w-[1400px] max-md:flex-wrap max-md:max-w-full">
+          {/* Column 1 */}
           <div className="flex flex-col text-base">
             <div className="text-xl font-medium leading-6 capitalize">
               Company
@@ -34,15 +35,17 @@ function Footer() {
             <div className="mt-7">Terms</div>
             <div className="mt-7">Contact Us</div>
           </div>
+          {/* Column 2 */}
           <div className="flex flex-col text-base">
             <div className="text-xl font-medium leading-6 capitalize">
               Quick Links
             </div>
             <div className="mt-8">Get in Touch</div>
-            <div className="mt-7">Help center</div>
-            <div className="mt-7">Live chat</div>
-            <div className="mt-7">How it works</div>
+            <div className="mt-7">Help Center</div>
+            <div className="mt-7">Live Chat</div>
+            <div className="mt-7">How It Works</div>
           </div>
+          {/* Column 3 */}
           <div className="flex flex-col text-base">
             <div className="text-xl font-medium leading-6 capitalize">
               Our Brands
@@ -54,11 +57,12 @@ function Footer() {
             <div className="mt-7">Ford</div>
             <div className="mt-7">Nissan</div>
             <div className="mt-7">Peugeot</div>
-            <div className="mt-6">Volkswagen</div>
+            <div className="mt-7">Volkswagen</div>
           </div>
+          {/* Column 4 */}
           <div className="flex flex-col text-base">
             <div className="text-xl font-medium leading-6 capitalize">
-              Vehicles Type
+              Vehicle Types
             </div>
             <div className="mt-7">Sedan</div>
             <div className="mt-7">Hatchback</div>
@@ -69,28 +73,29 @@ function Footer() {
             <div className="mt-7">Truck</div>
             <div className="mt-7">Convertible</div>
           </div>
-          <div className="flex flex-col">
+          {/* Column 5 */}
+          <div className="flex flex-col text-base">
             <div className="text-xl font-medium">Our Mobile App</div>
-            <div className="flex gap-5 justify-between px-8 py-3.5 mt-8 rounded-2xl bg-white bg-opacity-10">
+            <div className="flex gap-5 justify-between px-8 py-3.5 mt-8 rounded-2xl bg-white bg-opacity-10 max-md:px-5">
               <div className="self-start text-2xl">
-                <img src="/appstore.svg" alt="" />
+                <img src="/appstore.svg" alt="App Store" />
               </div>
               <div className="flex flex-col">
                 <div className="text-xs">Download on the</div>
                 <div className="mt-2.5 text-base font-medium">Apple Store</div>
               </div>
             </div>
-            <div className="flex gap-5 py-3.5 pr-12 pl-6 mt-3 rounded-2xl bg-white bg-opacity-10">
+            <div className="flex gap-5 py-3.5 pr-12 pl-6 mt-3 rounded-2xl bg-white bg-opacity-10 max-md:px-5">
               <div className="text-2xl">
-                <img src="/playstore.svg" alt="icon" />
+                <img src="/playstore.svg" alt="Google Play" />
               </div>
               <div className="flex flex-col">
-                <div className="text-xs">Get in on</div>
+                <div className="text-xs">Get it on</div>
                 <div className="mt-2.5 text-base font-medium">Google Play</div>
               </div>
             </div>
             <div className="mt-9 text-xl font-medium">Connect With Us</div>
-            <div className="flex gap-5 justify-between mt-11 text-base text-center whitespace-nowrap">
+            <div className="flex gap-5 justify-between mt-11 text-base text-center whitespace-nowrap max-md:mt-10">
               <div></div>
               <div></div>
               <div></div>
@@ -99,16 +104,14 @@ function Footer() {
           </div>
         </div>
       </div>
-      {/* sections 3 */}
-      <div className="flex justify-center items-center px-16 py-11 w-full text-base leading-7 border-t border-solid bg-slate-950 border-white border-opacity-10 sm:px-5">
-        <div className="flex gap-5 w-full max-w-[1398px] sm:max-w-full">
+      {/* Section 3 */}
+      <div className="flex justify-center items-center px-16 py-5 text-base leading-7 text-white border-t border-solid bg-slate-950 border-white border-opacity-10 max-md:px-5">
+        <div className="flex gap-5 w-full max-w-[1400px] max-md:flex-wrap max-md:max-w-full">
           <div className="flex-auto">
             © 2024 exemple.com. All rights reserved.
           </div>
-          <div className="flex flex-1 gap-5">
-            <div className="flex-auto">Terms & Conditions</div>
-            <div>Privacy Notice</div>
-          </div>
+          <div className="flex-auto">Terms & Conditions</div>
+          <div>Privacy Notice</div>
         </div>
       </div>
     </div>

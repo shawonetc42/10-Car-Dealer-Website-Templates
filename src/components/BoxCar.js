@@ -2,7 +2,7 @@ import React from "react";
 
 function BoxCar() {
   return (
-    <div className="container mx-auto py-12 px-4">
+    <div className="container mx-auto py-12 px-4 max-w-[1400px]">
       <h2 className="text-3xl font-semibold text-center mb-8">
         Shop BoxCar Your Way
       </h2>
