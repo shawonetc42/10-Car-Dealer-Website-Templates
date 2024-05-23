@@ -16,22 +16,22 @@ function HomeHero() {
 
   return (
     <div className="flex flex-col px-5 text-center text-slate-950 max-w-[1400px] mx-auto">
-      <div className="self-center text-4xl font-bold leading-10">
+      <div className="self-center text-4xl font-bold leading-10 mt-5 sm:mt-10">
         Browse by Type
       </div>
-      <div className="flex gap-5 mt-9 text-lg font-medium leading-5 whitespace-nowrap max-md:flex-wrap">
+      <div className="flex gap-5 mt-9 text-lg font-medium leading-5 whitespace-nowrap flex-wrap justify-center">
         {carTypes.map((car, index) => (
           <div
             key={index}
-            className="flex flex-col flex-1 justify-center px-6 py-7 bg-white rounded-2xl border border-gray-200 border-solid max-md:px-5"
+            className="flex flex-col justify-center items-center px-6 py-7 bg-white rounded-2xl border border-gray-200 border-solid sm:px-5 sm:py-6 lg:flex-1 max-w-[200px] md:max-w-[160px]"
           >
             <img
               loading="lazy"
               src={car.icon}
               alt={`${car.name} icon`}
-              className="self-center aspect-square w-[34px]"
+              className="w-[34px] h-[34px] mb-4"
             />
-            <div className="mt-4">{car.name}</div>
+            <div>{car.name}</div>
           </div>
         ))}
       </div>
